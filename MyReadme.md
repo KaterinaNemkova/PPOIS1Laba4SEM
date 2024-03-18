@@ -66,7 +66,7 @@
 где указано имя посетителя, который купил билет по такой-то цене
 на определенный аттракцион.
 
--choose_attraction(self, attractions)
+- choose_attraction(self, attractions)
 
 В метод передается список аттракционов, выводится на консоль, посетитель выбирает аттракцион, который хочет посетить.
 
@@ -74,11 +74,11 @@
 
 Выбрасывает исключение ValueError.
 
--wait_in_queue(self, attraction, queue)
+- wait_in_queue(self, attraction, queue)
 
 Добавляет посетителя, вызвавшего метод, в очередь на выбранный аттракцион. Выводит в консоль строку с информацией об этом.
 
--watch_rules(self, attraction)
+- watch_rules(self, attraction)
 
 Посетитель может посмотреть требования безопасности для указанного аттракциона.
 
@@ -92,11 +92,11 @@
 
 Создает аттракцион, с заданным именем, пустым списком требований безопасности и сразу же добавляет одно требование в список, и вместительностью на аттракцион.
 
--add_security_requirement(self, rules)
+- add_security_requirement(self, rules)
 
 Добавляет правило в список требований безопасности.
 
--show_security_requirements(self)
+- show_security_requirements(self)
 
 Выводит в консоль список требований безопасности для данного атрракциона.
 
@@ -110,17 +110,17 @@
 
 Создает пустой список посетителей.
 
--display_queue(self)
+- display_queue(self)
 
 Выводит в консоль имена посетителей.
 
--add_visitor(self, visitor, attraction)
+- add_visitor(self, visitor, attraction)
 
 Добавляет в очередь на выбранный аттракцион посетителя.
 
 Выбрасывает исключение Exception.
 
--remove_visitor(self)
+- remove_visitor(self)
 
 Удалаяет посетителя из очереди.
 
